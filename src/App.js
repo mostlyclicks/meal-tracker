@@ -13,19 +13,19 @@ function App() {
     // Function will call to get the data
     let data = {
       user: {
-        first_name: “Carlos”,
-        last_name: “Interone”
+        first_name: "Carlos",
+        last_name: "Interone"
       },
       average_daily_calories: 2478,
       days: [
         {
-          _id: “a1s2d3g4”,
-          date: “Monday, Nov 1st”,
+          _id: "a1s2d3g4",
+          date: "Monday, Nov 1st",
           total_calories: 2784
         },
         {
-          _id: “4g3f2d1s”,
-          date: “Tuesday, Nov 2nd”,
+          _id: "4g3f2d1s",
+          date: "Tuesday, Nov 2nd",
           total_calories: 2784
         }
       ]
