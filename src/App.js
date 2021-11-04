@@ -42,7 +42,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="max-w-3xl mx-auto">
       <UserHeader user={user} />
       <Days itemClicked={dayWasPressed}/>
     </div>
