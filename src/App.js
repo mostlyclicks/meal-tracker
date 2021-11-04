@@ -1,9 +1,13 @@
 import UserHeader from './components/UserHeader'
+import { User } from './dummyData/User'
 
 function App() {
+
+  const user = User
+
   return (
     <div className="App">
-      <UserHeader user="Carlos Interone" />
+      <UserHeader user={user} />
     </div>
   );
 }
