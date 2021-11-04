@@ -1,7 +1,9 @@
+import UserHeader from './components/UserHeader'
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <UserHeader user="Carlos Interone" />
     </div>
   );
 }
