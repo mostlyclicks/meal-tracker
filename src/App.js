@@ -1,5 +1,7 @@
 import UserHeader from './components/UserHeader'
+import Days from './components/Days'
 import { User } from './dummyData/User'
+
 
 function App() {
 
@@ -8,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <UserHeader user={user} />
+      <Days />
     </div>
   );
 }
