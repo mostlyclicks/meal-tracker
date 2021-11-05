@@ -1,6 +1,7 @@
 import UserHeader from './components/UserHeader'
 import Days from './components/Days'
 import React, { useState, useEffect } from 'react'
+import { data } from 'autoprefixer'
 
 
 function App() {
@@ -44,7 +45,7 @@ function App() {
   return (
     <div className="max-w-3xl mx-auto">
       <UserHeader user={user} />
-      <Days itemClicked={dayWasPressed}/>
+      <Days itemClicked={dayWasPressed} avgDailyCals={avgDailyCals}/>
     </div>
   );
 }
