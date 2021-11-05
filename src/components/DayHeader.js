@@ -1,6 +1,7 @@
 import React from 'react'
 
 const DayHeader = (props) => {
+  
   return (
     <div className="flex justify-between mb-4 items-baseline">
       <h2 className="w-half font-bold text-2xl">All Days</h2>

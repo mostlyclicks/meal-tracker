@@ -16,7 +16,11 @@ const Days = (props) => {
         
         {days.map((day) => {
           return (
-            <Day date={day.date} totalCalories={day.total_calories} />
+            <Day 
+              date={day.date}
+              totalCalories={day.total_calories}
+              onclick={props.itemClicked}
+            />
           )
         })}
 
