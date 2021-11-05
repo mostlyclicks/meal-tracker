@@ -45,7 +45,7 @@ function App() {
   return (
     <div className="max-w-3xl mx-auto">
       <UserHeader user={user} />
-      <Days itemClicked={dayWasPressed} avgDailyCals={avgDailyCals}/>
+      <Days itemClicked={dayWasPressed} avgDailyCals={avgDailyCals} days={days}/>
     </div>
   );
 }
